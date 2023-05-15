@@ -1,0 +1,203 @@
+body{
+    /* background-color: red; */
+}
+.left {
+    display: inline-block;
+    /* ye bos k size ko km krta ha itna tk kr deta ha jitna is k under text hota ha */
+    color: #bfdf11;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+
+.left div {
+
+    line-height: 35px;
+    text-align: center;
+    /* font-size: 22px; */
+}
+.uni{
+    font-size: 3.7rem;
+    font-family: fantasy;
+    color: #98a52a;
+}
+ .name p{
+    font-family: cursive;
+    margin: 18px;
+    text-align: center;
+    font-size: 1.7rem;
+ }
+
+.right {
+    display: inline-block;
+    /* ye bos k size ko km krta ha itna tk kr deta ha jitna is k under text hota ha */
+    /* color: blue; */
+    /* border: 2px solid rgb(0, 255, 98); */
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+
+}
+
+
+.right img {
+    padding-left: 29px;
+    width: 115px;
+    
+}
+
+.mid {
+    border-radius: 39px;
+    display: flex;
+    width: 49%;
+    margin: 11px auto;
+    color: white;
+    /* border: 2px solid rgb(102, 255, 0); */
+    /* background-color: black; */
+    filter: opacity(100%);
+    padding: 3px 52px;
+}
+
+.navbar {
+    /* agr hm display: inline-bloch krte ha .navbar or navbar k i may ye propertie use krte ha ho text aik he line may a jata ha; */
+    display: inline-block;
+    text-decoration: none;
+}
+
+.navbar li {
+    display: inline-block;
+    /* padding: 34px 23px;   */
+    font-size: 12px;
+
+}
+.navbar li a {
+    display: flex;
+    flex-direction: column;
+    color: #beed93;
+    text-decoration: none;
+    padding: 4px 21px;
+    font-size: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: rgb(236 202 38);
+}
+
+
+
+#home{
+    text-align: center;
+    height: 100vh;
+    display: block;
+    /* display: flex; */
+    /* padding: 219px 200px; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 39vh;
+    padding-left: 60vh;
+}
+#home::before{
+    overflow: hidden;
+    content: "";
+    background:url('/img/bg.jpg') no-repeat center center/cover;
+    
+    position: absolute;
+    height: 712px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0,34;
+}
+
+
+#home p{
+    margin: 12px 237px;
+    font-size: 1.2rem; 
+
+}
+nav{
+    /* background-color: blanchedalmond; */
+    padding-top: 10px;
+}
+
+.btn {
+    margin: 0px 12px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    /* border: 2px solid gray; */
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+
+.right .skills{
+    color: #98a52a;
+    font-family: cursive;
+    margin: 18px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+
+#sect-1{
+    border: 2px solid green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 12px 2px;
+    margin-top: 3px;
+    font-size: 1.2rem;
+    /* background:url('/img/course.jpg') no-repeat center center/cover; */
+}
+
+
+
+#sect-2{
+    border: 2px solid green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 12px 2px;
+    font-size: 1.2rem;
+    /* background: url('/img/staf.jpg') no-repeat center center/cover; */
+}
+#sect-3{
+    border: 2px solid green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 12px 2px;
+    font-size: 1.2rem;
+    /* background: url('/img/staf.jpg') no-repeat center center/cover; */
+}
+#sect-4{
+    border: 2px solid green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 12px 2px;
+    font-size: 1.2rem;
+    /* background: url('/img/staf.jpg') no-repeat center center/cover; */
+}
+
+.h-primary{
+    margin: 17px;
+    /* padding: 13px; */
+}
